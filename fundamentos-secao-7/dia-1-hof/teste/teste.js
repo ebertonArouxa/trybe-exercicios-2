@@ -23,3 +23,27 @@ const musicas = [
 
 const verifyMusic = musicas.find((music) => music.id === '31031685');
 console.log(verifyMusic);
+
+const names2 = ['Mateus', 'José', 'Ana', 'Cláudia', 'Bruna'];
+
+const hasName = (arr, name) => {
+  return arr.some((currentName) => currentName === name); 
+};
+
+console.log(hasName(names2, 'Ana'));
+console.log(hasName(names2, 'Pedro'));
+
+const people = [
+  { name: 'Mateus', age: 18 },
+  { name: 'José', age: 16 },
+  { name: 'Ana', age: 23 },
+  { name: 'Cláudia', age: 20 },
+  { name: 'Bruna', age: 19 },
+];
+
+const verifyAges = (array, lowAge) => {
+  return array.every((idade) => idade.age >= lowAge);
+};
+
+console.log(verifyAges(people, 18));
+console.log(verifyAges(people, 14));
