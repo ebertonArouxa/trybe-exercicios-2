@@ -1,0 +1,17 @@
+{
+  "name": "casa-de-cambio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "sweetalert2": "^11.7.5",
+    "vite": "^4.3.8"
+  }
+}
